@@ -1,11 +1,14 @@
+// Funciones de Javascript
+
 function hello() {
-  console.log("Hello World...")
-  console.log("Trabajando con Javascript")
+  console.log("Hello World...");
+  console.log("Trabajando con Javascript");
 }
 
-hello()
-hello()
-hello()
-hello()
-hello()
-hello()
+hello();
+
+function hello2() {
+  return "Hello World...";
+}
+
+console.log(hello2());

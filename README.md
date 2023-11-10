@@ -2,7 +2,11 @@
 ## lo necesario para poder utilizar un framework de JS
 # (paradigma programación funcional)
 
-- Funciones de Javascript
+- Funciones de Javascript: permite reutilizar lógica, tambien retorna
+valores (string, int, bool).
+
+
+
 - Parametros de Funciones
 - Parmetros por defecto
 - Objetos de Javascript
