@@ -105,3 +105,12 @@ const newProduct = {
 console.log(newProduct);
 
 // Shorthand property names FIN
+console.log("--------------------------------------------------");
+
+
+// Manipulacion del DOM INICIO
+
+
+
+// Manipulacion del DOM FIN
+console.log("--------------------------------------------------");
