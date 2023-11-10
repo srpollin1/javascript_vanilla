@@ -74,6 +74,7 @@ const user = {
     },
     friends: ["Carlos", "Pedro", "Maria"],
     active: true,
+    // METODOS // METHODS
     sendMail: function(){
         return "Enviando Mail...";
     }
