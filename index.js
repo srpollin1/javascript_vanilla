@@ -189,6 +189,10 @@ button1.addEventListener('click', function handlerClick(){
     alert("Alerta de una funcion anonima");
 });
 
+button1.addEventListener('click', function(){
+    alert("Alerta de una funcion anonima");
+});
+
 document.body.append(button1);
 
 // Funciones Anonimas FIN
