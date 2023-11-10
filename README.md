@@ -29,14 +29,36 @@ que hacemos hasta ejecutar otra lógica.
 - Objetos como parametros: 
 
 
-- Destructuring de Objetos
-- Funciones anonimas
-- Arrow functions
-- Inline arrow functions
-- return
-- String literals
-- metodos de arrays (map, filter, foreach, concat)
-- spread operator
-- Ecmascript modules
-- optional Chaining
-- Async/await
+- Destructuring de Objetos:
+
+
+- Funciones anonimas:
+
+
+- Arrow functions:
+
+
+- Inline arrow functions:
+
+
+- return:
+
+
+- String literals:
+
+
+- metodos de arrays (map, filter, foreach, concat):
+
+
+- spread operator:
+
+
+- Ecmascript modules:
+
+
+- optional Chaining:
+
+
+- Async/await:
+
+
