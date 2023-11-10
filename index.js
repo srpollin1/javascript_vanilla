@@ -88,3 +88,13 @@ console.log(user.active);
 console.log(user.sendMail());
 
 // Objetos de Javascript FIN
+console.log("--------------------------------------------------");
+
+
+
+
+// Shorthand property names INICIO
+
+
+
+// Shorthand property names FIN
