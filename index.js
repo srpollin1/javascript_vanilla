@@ -379,7 +379,11 @@ console.log("--------------------------------------------------");
 
 // Ecmascript modules INICIO
 
-import { add1 } from './add1.js';
-console.log(add1(5, 5));
+import { add1, multiply, subtract, texto, puntos } from './operations.js';
+console.log(`El resultado de la suma es: ${add1(5, 5)}`);
+console.log(`El resultado de la multiplicacion es: ${multiply(5, 5)}`);
+console.log(`El resultado de la resta es: ${subtract(5, 5)}`);
+console.log(`EL texto es: ${texto}`)
+console.log(`Los puntos son: ${puntos}`)
 
 // Ecmascript modules FIN
