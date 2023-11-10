@@ -265,3 +265,16 @@ buttonAlert.addEventListener('click',() => {
 document.body.append(buttonAlert);
 
 // Return en funciones FIN
+console.log("--------------------------------------------------");
+
+
+
+
+
+
+// String literals INICIO
+
+
+
+// String literals FIN
+
