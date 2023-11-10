@@ -8,7 +8,7 @@ function hello() {
 hello();
 
 function hello2() {
-  return "Hello World...";
+  return "Hello World con return...";
 }
 
 console.log(hello2());
