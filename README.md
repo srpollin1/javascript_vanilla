@@ -10,7 +10,9 @@ otra funcion.
 de cualquier manera (name, age, x, y, apellido, etc)
 
 
-- Parmetros por defecto
+- Parametros por defecto: permiten que los parámetros con nombre se inicien con valores predeterminados si no se pasa ningún valor o undefined.
+
+
 - Objetos de Javascript
 - Shorthand property names
 - Manipulacion del DOM
