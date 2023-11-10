@@ -45,4 +45,10 @@ function sumar(a, b) {
 }
 console.log(sumar(50, 50));
 
+
+function resta(a = 0, b = 0) {
+    return `La resta es: ${a - b}`
+}
+console.log(resta(100, 50));
+
 // Parametros de Funciones FIN
