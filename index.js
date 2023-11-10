@@ -7,9 +7,6 @@ function hello() {
 
 hello();
 
-
-
-
 function hello2() {
   return "Hello World con return...";
   // puede retornar cualquier tipo de dato, ejemplo un objeto, un arreglo, un string, un numero, etc.
@@ -17,5 +14,12 @@ function hello2() {
 
 console.log(hello2());
 
+function hello3() {
+  return function () {
+    return "Hello World con return y funcion anonima...";
+  };
+}
+
+console.log(hello3()());
 
 // Funciones de Javascript FIN
