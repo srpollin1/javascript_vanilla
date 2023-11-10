@@ -156,7 +156,7 @@ console.log("--------------------------------------------------");
 
 // Destructuracion de Objetos INICIO
 
-function imprimirUsuario(user){
+function imprimirUsuario({name, lastname}){
     return '<h1>hola ' + user['name'] + " " + user['lastname'] + '</h1>'
 }
 console.log(imprimirUsuario(user));
