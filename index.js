@@ -39,4 +39,10 @@ saludo("Carlos");
 
 
 
+
+function sumar(a, b) {
+  return a + b;
+}
+console.log(sumar(50, 50));
+
 // Parametros de Funciones FIN
