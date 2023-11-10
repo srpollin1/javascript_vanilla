@@ -46,6 +46,12 @@ function sumar(a, b) {
 console.log(sumar(50, 50));
 
 
+function indefinida(a, b){
+    console.log(a + b);
+}
+console.log(indefinida(0));
+
+
 function resta(a = 0, b = 0) {
     return `La resta es: ${a - b}`
 }
