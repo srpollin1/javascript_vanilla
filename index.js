@@ -243,3 +243,12 @@ console.log(showObject());
 console.log(showFunction());
 
 // Inline Arrow Functions FIN
+console.log("--------------------------------------------------");
+
+
+
+// Return en funciones INICIO
+
+
+
+// Return en funciones FIN
