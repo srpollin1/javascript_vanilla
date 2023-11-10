@@ -47,7 +47,7 @@ console.log(sumar(50, 50));
 
 
 function indefinida(a, b){
-    console.log(a + b);
+    return `La suma es: ${a + b}`
 }
 console.log(indefinida(0));
 
