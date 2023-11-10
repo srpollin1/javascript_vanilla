@@ -304,6 +304,41 @@ console.log("--------------------------------------------------");
 
 // Metodos de arrays (map, filter, foreach, concat) INICIO
 
+const names = ['Juan', 'Pedro', 'Maria', 'Carlos', 'Jose'];
+const lastnames = ['Perez', 'Gomez', 'Lopez', 'Garcia', 'Diaz'];
+
+const newName = names.map(function(name){
+    return `hola ${name}`;
+});
+
+const newName1 = names.find(function(name){
+    if(name === 'Juan'){
+        return name;
+    }
+});
+
+const newName2 = names.filter(function(name){
+    if(name === 'Pedro'){
+        return name;
+    }
+});
+
+
+const newName3 = names.filter(function(name){
+    if(name !== 'Pedro'){
+        return name;
+    }
+});
+
+console.log(names);
+console.log(newName);
+console.log(`Es igual a ${newName1}`);
+console.log(`Es igual a ${newName2}`);
+console.log(`Es diferente a Pedro: ${newName3}`);
+console.log(names.concat(lastnames));
+
+
+
 
 
 // Metodos de arrays (map, filter, foreach, concat) FIN
