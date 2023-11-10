@@ -121,7 +121,6 @@ button.addEventListener('click', function(){
     title.innerText = "Titulo modificado con Event handler";
 });
 
-
 document.body.append(title);
 document.body.append(button);
 
