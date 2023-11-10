@@ -1,4 +1,4 @@
-# javascript_vanilla
+# Javascript Vanilla
 ## lo necesario para poder utilizar un framework de JS
 # (paradigma programación funcional)
 
