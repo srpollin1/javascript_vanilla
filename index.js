@@ -148,3 +148,19 @@ document.body.innerHTML = printUser(user);
 
 // Objetos como parametros FIN
 console.log("--------------------------------------------------");
+
+
+
+
+
+
+// Destructuracion de Objetos INICIO
+
+function imprimirUsuario(user){
+    return '<h1>hola ' + user['name'] + " " + user['lastname'] + '</h1>'
+}
+console.log(imprimirUsuario(user));
+document.body.innerHTML = imprimirUsuario(user);
+
+
+// Destructuracion de Objetos FIN
