@@ -196,3 +196,14 @@ button1.addEventListener('click', function(){
 document.body.append(button1);
 
 // Funciones Anonimas FIN
+
+
+
+
+
+
+// Arrow Functions INICIO
+
+
+
+// Arrow Functions FIN
