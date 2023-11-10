@@ -76,7 +76,8 @@ const user = {
     sendMail: function(){
         return "Enviando Mail...";
     }
-
 }
+
+console.log(user);
 
 // Objetos de Javascript FIN
