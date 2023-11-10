@@ -78,6 +78,6 @@ const user = {
     }
 }
 
-console.log(user);
+console.log(user(sendMail()));
 
 // Objetos de Javascript FIN
