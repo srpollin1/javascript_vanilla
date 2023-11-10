@@ -63,6 +63,7 @@ console.log("--------------------------------------------------");
 // Objetos de Javascript INICIO
 
 const user = {
+    //PROPIEDADES // PROPERTIES
     name: "Juan",
     lastname: "Perez",
     age: 30,
@@ -78,6 +79,11 @@ const user = {
     }
 }
 
-console.log(user(sendMail()));
+console.log(user.name);
+console.log(user.lastname);
+console.log(user.address.street);
+console.log(user.friends[1]);
+console.log(user.active);
+console.log(user.sendMail());
 
 // Objetos de Javascript FIN
