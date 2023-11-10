@@ -56,3 +56,12 @@ function resta(a = 0, b = 0) {
 console.log(resta(100, 50));
 
 // Parametros de Funciones FIN
+console.log("--------------------------------------------------");
+
+
+
+// Objetos de Javascript INICIO
+
+
+
+// Objetos de Javascript FIN
