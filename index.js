@@ -323,7 +323,6 @@ const newName2 = names.filter(function(name){
     }
 });
 
-
 const newName3 = names.filter(function(name){
     if(name !== 'Pedro'){
         return name;
@@ -337,8 +336,9 @@ console.log(`Es igual a ${newName2}`);
 console.log(`Es diferente a Pedro: ${newName3}`);
 console.log(names.concat(lastnames));
 
-
-
-
-
 // Metodos de arrays (map, filter, foreach, concat) FIN
+
+
+
+
+
