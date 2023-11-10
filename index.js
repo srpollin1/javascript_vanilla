@@ -337,8 +337,14 @@ console.log(`Es diferente a Pedro: ${newName3}`);
 console.log(names.concat(lastnames));
 
 // Metodos de arrays (map, filter, foreach, concat) FIN
+console.log("--------------------------------------------------");
 
 
 
 
 
+// Spread operator INICIO
+
+
+
+// Spread operator FIN
