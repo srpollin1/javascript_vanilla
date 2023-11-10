@@ -139,7 +139,12 @@ console.log("--------------------------------------------------");
 
 // Objetos como parametros INICIO
 
+function printUser(user){
+    return '<h1>hola ' + user.name + '</h1>'
+}
 
+console.log(printUser(user));
+document.body.innerHTML = printUser(user);
 
 // Objetos como parametros FIN
 console.log("--------------------------------------------------");
