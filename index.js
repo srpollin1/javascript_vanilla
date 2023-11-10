@@ -276,13 +276,11 @@ console.log("--------------------------------------------------");
 
 const background = 'red';
 const color = 'white';
-
+const isAuthorized2 = () => true;
 
 const buttonAlert2 = document.createElement('button');
 buttonAlert2.innerText = "Click Alert 2";
-buttonAlert2.style = `background-color: ${background}; color: ${color}`;
-
-const isAuthorized2 = () => true;
+buttonAlert2.style = `background-color: ${isAuthorized ? 'blue' : background}; color: ${color}`;
 
 buttonAlert2.addEventListener('click',() => {
     if(isAuthorized2()){
