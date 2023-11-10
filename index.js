@@ -170,6 +170,27 @@ console.log("--------------------------------------------------");
 
 // Funciones Anonimas INICIO
 
+console.log(function(){
+    return 'starting...';
+}());
+
+console.log(function start(){
+    return 'starting...con nombre ya no es anonima';
+}());
+
+console.log(function (){
+    return 'starting...sin el ()';
+});
+
+const button1 = document.createElement('button');
+button1.innerText = "Click...";
+button1.addEventListener('click', function(){
+    alert("Alerta de una funcion anonima");
+});
+document.body.append(button1);
+
+
+
 
 
 // Funciones Anonimas FIN
