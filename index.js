@@ -113,7 +113,13 @@ console.log("--------------------------------------------------");
 
 const title = document.createElement('h1');
 title.innerText = "Titulo agregado desde Javascript";
+
+const button = document.createElement('button');
+button.innerText = "Click me";
+
+
 document.body.append(title);
+document.body.append(button);
 
 // Manipulacion del DOM FIN
 console.log("--------------------------------------------------");
