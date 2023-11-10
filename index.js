@@ -22,3 +22,21 @@ function hello3() {
 console.log(hello3()());
 
 // Funciones de Javascript FIN
+console.log("--------------------------------------------------");
+
+
+
+
+
+// Parametros de Funciones INICIO
+
+function saludo(nombre) {
+  console.log(`Hola ${nombre}`);
+}
+saludo("Juan");
+saludo("Pedro");
+saludo("Carlos");
+
+
+
+// Parametros de Funciones FIN

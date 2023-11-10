@@ -6,7 +6,10 @@
 valores (string, int, bool), algo interesante de JS es que las funciones pueden retornar
 otra funcion.
 
-- Parametros de Funciones
+- Parametros de Funciones: valores que nuestra función puede esperar para procesarlos, se pueden llamar 
+de cualquier manera (name, age, x, y, apellido, etc)
+
+
 - Parmetros por defecto
 - Objetos de Javascript
 - Shorthand property names
