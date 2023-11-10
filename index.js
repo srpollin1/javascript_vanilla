@@ -185,7 +185,7 @@ console.log(function (){
 const button1 = document.createElement('button');
 button1.innerText = "Click...";
 
-button1.addEventListener('click', function(){
+button1.addEventListener('click', function handlerClick(){
     alert("Alerta de una funcion anonima");
 });
 
