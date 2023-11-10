@@ -108,9 +108,12 @@ console.log(newProduct);
 console.log("--------------------------------------------------");
 
 
+
 // Manipulacion del DOM INICIO
 
-
+const title = document.createElement('h1');
+title.innerText = "Titulo agregado desde Javascript";
+document.body.append(title);
 
 // Manipulacion del DOM FIN
 console.log("--------------------------------------------------");
