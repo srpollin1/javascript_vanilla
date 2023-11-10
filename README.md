@@ -3,9 +3,8 @@
 # (paradigma programación funcional)
 
 - Funciones de Javascript: permite reutilizar lógica, tambien retorna
-valores (string, int, bool).
-
-
+valores (string, int, bool), algo interesante de JS es que las funciones pueden retornar
+otra funcion.
 
 - Parametros de Funciones
 - Parmetros por defecto
