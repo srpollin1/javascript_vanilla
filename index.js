@@ -249,6 +249,19 @@ console.log("--------------------------------------------------");
 
 // Return en funciones INICIO
 
+const buttonAlert = document.createElement('button');
+buttonAlert.innerText = "Click Alert";
 
+const isAuthorized = () => false;
+
+buttonAlert.addEventListener('click',() => {
+    if(isAuthorized()){
+        alert("Autorizado¡¡¡");
+    }else{
+        alert("No autorizado :C");
+    }
+})
+
+document.body.append(buttonAlert);
 
 // Return en funciones FIN
