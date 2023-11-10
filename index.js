@@ -41,7 +41,7 @@ saludo("Carlos");
 
 
 function sumar(a, b) {
-  return a + b;
+  return `La suma es: ${a + b}`
 }
 console.log(sumar(50, 50));
 
