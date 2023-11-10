@@ -62,6 +62,21 @@ console.log("--------------------------------------------------");
 
 // Objetos de Javascript INICIO
 
+const user = {
+    name: "Juan",
+    lastname: "Perez",
+    age: 30,
+    address: {
+        country: "Peru",
+        city: "Lima",
+        street: "Av. Lima 123"
+    },
+    friends: ["Carlos", "Pedro", "Maria"],
+    active: true,
+    sendMail: function(){
+        return "Enviando Mail...";
+    }
 
+}
 
 // Objetos de Javascript FIN
