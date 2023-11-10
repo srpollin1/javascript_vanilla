@@ -162,5 +162,14 @@ function imprimirUsuario({name, lastname}){
 console.log(imprimirUsuario(user));
 document.body.innerHTML = imprimirUsuario(user);
 
-
 // Destructuracion de Objetos FIN
+console.log("--------------------------------------------------");
+
+
+
+
+// Funciones Anonimas INICIO
+
+
+
+// Funciones Anonimas FIN
