@@ -356,7 +356,6 @@ const book = {
     price: 100,
 }
 
-
 const discount = {
     discount: true,
     discountPrice: 50
@@ -371,9 +370,15 @@ console.log(book);
 console.log(discount);
 console.log(bookWithDiscount);
 
-
-
-
-
-
 // Spread operator FIN
+console.log("--------------------------------------------------");
+
+
+
+
+
+// Ecmascript modules INICIO
+
+
+
+// Ecmascript modules FIN
