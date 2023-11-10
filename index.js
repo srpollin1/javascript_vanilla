@@ -243,7 +243,7 @@ console.log(showObject());
 console.log(showFunction());
 
 // Inline Arrow Functions FIN
-console.log("--------------------------------------------------");
+
 
 
 
@@ -265,7 +265,7 @@ buttonAlert.addEventListener('click',() => {
 document.body.append(buttonAlert);
 
 // Return en funciones FIN
-console.log("--------------------------------------------------");
+
 
 
 
@@ -295,4 +295,15 @@ buttonAlert2.addEventListener('click',() => {
 document.body.append(buttonAlert2);
 
 // String literals FIN
+console.log("--------------------------------------------------");
 
+
+
+
+
+
+// Metodos de arrays (map, filter, foreach, concat) INICIO
+
+
+
+// Metodos de arrays (map, filter, foreach, concat) FIN
