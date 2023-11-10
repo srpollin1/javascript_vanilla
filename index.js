@@ -391,3 +391,8 @@ console.log(`Los puntos son: ${puntos}`)
 
 
 
+// Optional Chaining INICIO
+
+
+
+// Optional Chaining FIN
