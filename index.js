@@ -379,7 +379,7 @@ console.log("--------------------------------------------------");
 
 // Ecmascript modules INICIO
 
-import { add } from './add.js';
-console.log(add(5, 5));
+import { add1 } from './add1.js';
+console.log(add1(5, 5));
 
 // Ecmascript modules FIN
