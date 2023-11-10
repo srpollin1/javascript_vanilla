@@ -1,8 +1,8 @@
-export function add1(x, y){
+export function add1(x=0, y=0){
     return x + y;
 }
 
-export function multiply(x, y){
+export function multiply(x=0, y=0){
     return x * y;
 }
 
