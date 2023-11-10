@@ -95,6 +95,13 @@ console.log("--------------------------------------------------");
 
 // Shorthand property names INICIO
 
+const name = "notebook";
+const price = 300000;
 
+const newProduct = {
+    name,
+    price
+}
+console.log(newProduct);
 
 // Shorthand property names FIN
