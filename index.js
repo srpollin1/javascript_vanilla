@@ -387,12 +387,39 @@ console.log(`EL texto es: ${texto}`)
 console.log(`Los puntos son: ${puntos}`)
 
 // Ecmascript modules FIN
+console.log("--------------------------------------------------");
+
 
 
 
 
 // Optional Chaining INICIO
 
-
+const person = {
+    name: 'Juan',
+    lastname: 'Perez',
+    age: 30,
+    address: {
+        city: 'Santiago',
+    },
+    location: {}
+}
+console.log(person.location?.city);
 
 // Optional Chaining FIN
+console.log("--------------------------------------------------");
+
+
+
+
+// Async/await INICIO
+
+
+
+
+// Async/await FIN
+
+
+
+
+
