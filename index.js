@@ -343,6 +343,14 @@ console.log(person.location?.city);
 // Optional Chaining FIN
 console.log("--------------------------------------------------");
 
+
+
+
+
+
+
+
+
 // Async/await INICIO
 
 const ul = document.createElement("ul");
@@ -360,5 +368,4 @@ async function loadData() {
 }
 
 loadData();
-
 // Async/await FIN
