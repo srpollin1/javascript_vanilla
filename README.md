@@ -19,14 +19,14 @@ de cualquier manera (name, age, x, y, apellido, etc)
 - Shorthand property names: es una lista delimitada por comas de cero o más pares de nombres de propiedades y valores asociados de un objeto, encerrados entre llaves ( {}).
 
 
-- Manipulacion del DOM: 
+- Manipulacion del DOM: Javascript puede crear elementos, guardarlos en constantes, puede añadir escuchas o eventos que el usuario puede hacer con nuestra interfaz, se pueden actualizar valores o ejecutar lógica como puede ser una alerta.
 
 - Event Handler / Manejadores de eventos: Se puede seleccionar un elemento, puedo dar click, arrastrar 
 elementos, todo evento que el navegador puede escuchar, todos los elementos html pueden detectar todo lo
 que hacemos hasta ejecutar otra lógica.
 
 
-- Objetos como parametros
+- Objetos como parametros: 
 - Destructuring de Objetos
 - Funciones anonimas
 - Arrow functions
