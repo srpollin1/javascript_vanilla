@@ -345,6 +345,35 @@ console.log("--------------------------------------------------");
 
 // Spread operator INICIO
 
+console.log([...names, ...lastnames]);
+
+
+const book = {
+    id: 1,
+    title: 'Harry Potter',
+    description: 'Lorem ipsum dolor sit amet consectetur',
+    autor: 'J.K. Rowling',
+    price: 100,
+}
+
+
+const discount = {
+    discount: true,
+    discountPrice: 50
+}
+
+const bookWithDiscount = {
+    ...book,
+    ...discount
+};
+
+console.log(book);
+console.log(discount);
+console.log(bookWithDiscount);
+
+
+
+
 
 
 // Spread operator FIN
