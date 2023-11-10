@@ -184,13 +184,11 @@ console.log(function (){
 
 const button1 = document.createElement('button');
 button1.innerText = "Click...";
+
 button1.addEventListener('click', function(){
     alert("Alerta de una funcion anonima");
 });
+
 document.body.append(button1);
-
-
-
-
 
 // Funciones Anonimas FIN
