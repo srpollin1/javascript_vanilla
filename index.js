@@ -379,7 +379,7 @@ console.log("--------------------------------------------------");
 
 // Ecmascript modules INICIO
 
-import { bookWithDiscount } from './add.js';
-
+import { add } from './add.js';
+console.log(add(5, 5));
 
 // Ecmascript modules FIN
