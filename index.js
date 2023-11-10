@@ -204,6 +204,42 @@ document.body.append(button1);
 
 // Arrow Functions INICIO
 
+function add(x, y){
+    return x + y;
+}
 
+const add2 = (x, y) => {
+    return x + y;
+}
 
 // Arrow Functions FIN
+console.log("--------------------------------------------------");
+
+
+
+
+
+// Inline Arrow Functions INICIO
+
+const showtext = () => {
+    return 'Hola Mundo';
+}
+
+//return implicito
+const showtext2 = () => 'Hola Mundo';
+const showNumber = () => 100;
+const showBoolean = () => true;
+const showArray = () => [1, 2, 3];
+const showObject = () => ({name: 'Juan', lastname: 'Perez'});
+const showFunction = () => function(){};
+
+
+console.log(showtext());
+console.log(showtext2());
+console.log(showNumber());
+console.log(showBoolean());
+console.log(showArray());
+console.log(showObject());
+console.log(showFunction());
+
+// Inline Arrow Functions FIN
