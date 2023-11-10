@@ -27,6 +27,8 @@ que hacemos hasta ejecutar otra lógica.
 
 
 - Objetos como parametros: 
+
+
 - Destructuring de Objetos
 - Funciones anonimas
 - Arrow functions

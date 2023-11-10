@@ -37,7 +37,6 @@ saludo("Juan");
 saludo("Pedro");
 saludo("Carlos");
 
-
 function sumar(a, b) {
   return `La suma es: ${a + b}`
 }
@@ -57,6 +56,9 @@ console.log(resta(100, 50));
 
 // Parametros de Funciones FIN
 console.log("--------------------------------------------------");
+
+
+
 
 
 
@@ -93,6 +95,8 @@ console.log("--------------------------------------------------");
 
 
 
+
+
 // Shorthand property names INICIO
 
 const name = "notebook";
@@ -109,6 +113,8 @@ console.log("--------------------------------------------------");
 
 
 
+
+
 // Manipulacion del DOM INICIO
 
 const title = document.createElement('h1');
@@ -120,7 +126,6 @@ button.addEventListener('click', function(){
     alert("Alerta con Event handler :3");
     title.innerText = "Titulo modificado con Event handler";
 });
-
 document.body.append(title);
 document.body.append(button);
 
@@ -128,3 +133,13 @@ document.body.append(button);
 console.log("--------------------------------------------------");
 
 
+
+
+
+
+// Objetos como parametros INICIO
+
+
+
+// Objetos como parametros FIN
+console.log("--------------------------------------------------");
