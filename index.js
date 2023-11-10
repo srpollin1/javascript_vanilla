@@ -38,8 +38,6 @@ saludo("Pedro");
 saludo("Carlos");
 
 
-
-
 function sumar(a, b) {
   return `La suma es: ${a + b}`
 }
