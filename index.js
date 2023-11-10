@@ -274,7 +274,27 @@ console.log("--------------------------------------------------");
 
 // String literals INICIO
 
+const background = 'red';
+const color = 'white';
 
+
+const buttonAlert2 = document.createElement('button');
+buttonAlert2.innerText = "Click Alert 2";
+buttonAlert2.style = `background-color: ${background}; color: ${color}`;
+
+const isAuthorized2 = () => true;
+
+buttonAlert2.addEventListener('click',() => {
+    if(isAuthorized2()){
+        alert("Autorizado¡¡¡");
+        document.body.style = `background-color: #202020; color: ${color}`;
+    }else{
+        alert("No autorizado :C");
+        document.body.style = `background-color: ${background}; color: ${color}`;
+    }
+})
+
+document.body.append(buttonAlert2);
 
 // String literals FIN
 
