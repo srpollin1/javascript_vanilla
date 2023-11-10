@@ -21,6 +21,10 @@ de cualquier manera (name, age, x, y, apellido, etc)
 
 - Manipulacion del DOM: 
 
+- Event Handler / Manejadores de eventos: Se puede seleccionar un elemento, puedo dar click, arrastrar 
+elementos, todo evento que el navegador puede escuchar, todos los elementos html pueden detectar todo lo
+que hacemos hasta ejecutar otra lógica.
+
 
 - Objetos como parametros
 - Destructuring de Objetos

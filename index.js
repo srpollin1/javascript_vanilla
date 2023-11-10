@@ -116,6 +116,9 @@ title.innerText = "Titulo agregado desde Javascript";
 
 const button = document.createElement('button');
 button.innerText = "Click me";
+button.addEventListener('click', function(){
+    alert("Alerta con Event handler :3");
+});
 
 
 document.body.append(title);
@@ -123,3 +126,5 @@ document.body.append(button);
 
 // Manipulacion del DOM FIN
 console.log("--------------------------------------------------");
+
+
